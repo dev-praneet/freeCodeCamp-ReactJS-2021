@@ -47,11 +47,13 @@ Users should be able to:
 
 ### What I learned
 
+- Learnt how I could use useRef hook to skip the initial render of the useEffect hook.
 
+- Learnt to create a time which will trigger after a specified period of time.
 
 ### To know further
 
-The `max-width` property doesn't seem to work on the img component created using styled-components whereas the `width` property is working fine. But again the same issue wasn't there in the video.
+- The `max-width` property doesn't seem to work on the img component created using styled-components whereas the `width` property is working fine. But again the same issue wasn't there in the video.
 
 ### Useful resources
 
