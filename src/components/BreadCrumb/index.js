@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 // Styles
@@ -11,11 +12,15 @@ const BreadCrumb =  props => {
                 <Link to='/'>
                     <span>Home</span>
                 </Link>
-                <span>|</span>
+                <span> | </span>
                 <span>{props.movieTitle}</span>
             </Content>
         </Wrapper>
     )
+}
+
+BreadCrumb.propTypes = {
+    movieTitle: PropTypes.string,
 }
 
 export default BreadCrumb;
